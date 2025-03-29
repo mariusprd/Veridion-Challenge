@@ -141,12 +141,12 @@ def get_beat_dict():
         "Paper": ["Fragile items", "light materials", "combustible materials", "trees"],
         "Rock": ["Fragile", "soft objects", "small structures", "paper", "hand"],
         "Water": ["Fire", "heat", "drought", "dehydration", "dry environments", "thirst", "dry", "sand", "soft stone", "chalk", "electronics", "computer"],
-        "Twig": ["Small fragile things", "small animals", "leaves", "light structures", "insect"],
+        "Twig": ["Small fragile things", "balloon", "small animals", "leaves", "light structures", "insect"],
         "Sword": ["Humans", "animals", "unprotected bodies", "wood", "certain materials", "plants", "computer", "electronics", "hand", "foot"],
         "Shield": ["Physical attacks", "projectiles", "impact", "slashing weapons", "blunt force", "gunfire", "gun"],
         "Gun": ["Humans", "animals", "doors", "barriers", "weaker materials", "threats", "plants", "trees", "wood", "electronics", "computer"],
         "Flame": ["Flammable materials", "plastic", "air", "fuel sources", "ice", "moisture", "cold", "house", "building", "structures", "wood", "paper", "plants", "trees", "animals", "humans", "living beings", "living creatures", "living things", "beings", "creatures", "things", "fruit", "vegetables", "food", "crops"],
-        "Rope": ["Loose items", "unconnected materials", "smaller objects", "bodies", "insect"],
+        "Rope": ["Loose items", "unconnected materials", "smaller objects", "bodies", "insect", "human"],
         "Disease": ["Living organisms", "immune systems", "human health", "animal populations", "human", "animal", "insect", "organisms", "beings", "creatures", "food", "crops"],
         "Cure": ["Disease", "illness", "infections", "viral outbreaks", "wounds", "ailments"],
         "Bacteria": ["Weak organisms", "immune systems", "low-level pathogens", "health", "clean", "sanitary", "hygiene", "food", "water"],
@@ -158,8 +158,8 @@ def get_beat_dict():
         "Fate": ["Free will", "choices", "individual control", "randomness", "chaos", "war", "human", "animal", "plants", "life", "living", "organisms", "living beings", "living creatures", "living things", "beings", "creatures", "things"],
         "Earthquake": ["Buildings", "roads", "structures", "landscapes", "civilization", "foundations", "human", "animal", "plants", "life", "road", "bridge"],
         "Storm": ["Calm weather", "small plants", "fragile structures", "peace", "warm conditions", "fire", "animals", "plants", "crops"],
-        "Vaccine": ["Disease", "viruses", "infections", "pathogens", "bacterial outbreaks", "bacteria", "illness"],
-        "Logic": ["Emotion", "irrationality", "confusion", "errors in judgment", "subjective beliefs", "war", "conflict", "violence", "stress", "suffering", "unrest"],
+        "Vaccine": ["Disease", "viruses", "infections", "pathogens", "bacterial outbreaks", "bacteria", "illness", "outbreak" ],
+        "Logic": ["Emotion", "irrationality", "confusion", "errors in judgment", "subjective beliefs", "war", "conflict", "violence", "stress", "suffering", "unrest", "human"],
         "Gravity": ["Objects in free-fall", "floating objects", "anti-gravity", "resistance", "levitation", "air"],
         "Robots": ["Human labor", "manual tasks", "repetitive work", "hazardous tasks", "unskilled work", "human", "air", "crops", "food"],
         "Stone": ["Fragile materials", "soft objects", "weaker structures", "easily destructible items", "glass", "animal"],
@@ -343,9 +343,9 @@ player_id = 'qG2uqHjtTq'
 print(f"Starting game for player ID: {player_id}")
 while True:
     try:
+        input("Press Enter to continue to the next round...")
         play_game(player_id)
         #wait input till next round
-        input("Press Enter to continue to the next round...")
     except requests.exceptions.RequestException as e:
         print(f"Error during game: {e}. Retrying...")
         sleep(1)  # Wait before retrying
