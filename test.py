@@ -134,50 +134,50 @@ NUM_ROUNDS = 5
 def get_beat_dict():
     # this has the format {my_word: [the list of words that it beats]}
     return {
-        "Feather": ["Heavy objects", "mass", "gravity", "inertia", "dense materials"],
-        "Coal": ["Wood", "low-energy fuels", "biomass", "simple materials"],
-        "Pebble": ["Fragile items", "delicate materials", "small obstacles", "surface materials"],
-        "Leaf": ["Small debris", "dirt", "light materials", "organic matter", "plants"],
+        "Feather": ["baloon"],
+        "Coal": ["Wood", "food", "white", "snow"],
+        "Pebble": ["Fragile items", "delicate materials", "small obstacles", "surface materials", "thin glass", "paper"],
+        "Leaf": ["bacteria"],
         "Paper": ["Fragile items", "light materials", "combustible materials", "trees"],
-        "Rock": ["Fragile materials", "soft objects", "small structures", "softer stones", "hand"],
-        "Water": ["Fire", "heat", "drought", "dehydration", "dry environments", "thirst", "dry", "sand"],
+        "Rock": ["Fragile", "soft objects", "small structures", "paper", "hand"],
+        "Water": ["Fire", "heat", "drought", "dehydration", "dry environments", "thirst", "dry", "sand", "soft stone", "chalk", "electronics", "computer"],
         "Twig": ["Small fragile things", "small animals", "leaves", "light structures", "insect"],
         "Sword": ["Humans", "animals", "unprotected bodies", "wood", "certain materials", "plants", "computer", "electronics", "hand", "foot"],
         "Shield": ["Physical attacks", "projectiles", "impact", "slashing weapons", "blunt force", "gunfire", "gun"],
         "Gun": ["Humans", "animals", "doors", "barriers", "weaker materials", "threats", "plants", "trees", "wood", "electronics", "computer"],
-        "Flame": ["Flammable materials", "air", "fuel sources", "ice", "moisture", "cold", "house", "building", "structures", "wood", "paper", "plants", "trees", "animals", "humans", "living beings", "living creatures", "living things", "beings", "creatures", "things"],
+        "Flame": ["Flammable materials", "plastic", "air", "fuel sources", "ice", "moisture", "cold", "house", "building", "structures", "wood", "paper", "plants", "trees", "animals", "humans", "living beings", "living creatures", "living things", "beings", "creatures", "things", "fruit", "vegetables", "food", "crops"],
         "Rope": ["Loose items", "unconnected materials", "smaller objects", "bodies", "insect"],
-        "Disease": ["Living organisms", "immune systems", "human health", "animal populations", "human", "animal", "insect", "organisms", "beings", "creatures"],
+        "Disease": ["Living organisms", "immune systems", "human health", "animal populations", "human", "animal", "insect", "organisms", "beings", "creatures", "food", "crops"],
         "Cure": ["Disease", "illness", "infections", "viral outbreaks", "wounds", "ailments"],
-        "Bacteria": ["Weak organisms", "some immune systems", "low-level pathogens", "health", "clean", "sanitary", "hygiene"],
-        "Shadow": ["Light", "sun", "illumination", "space", "bright areas", "mirror"],
+        "Bacteria": ["Weak organisms", "immune systems", "low-level pathogens", "health", "clean", "sanitary", "hygiene", "food", "water"],
+        "Shadow": ["space", "bright areas", "mirror", "white", "visibility"],
         "Light": ["Darkness", "cold", "shadows", "low visibility", "obscured areas", "night", "absence of light"],
-        "Virus": ["Living organisms", "immune systems", "cellular structures", "disease transmission"],
+        "Virus": ["Living organisms", "immune systems", "cellular structures", "disease transmission", "food"],
         "Sound": ["Silence", "stillness", "peace", "noise suppression", "disturbances", "quiet", "calm"],
-        "Time": ["Everything", "decay", "memory", "civilization", "technology", "life cycles"],
+        "Time": ["Everything", "decay", "memory", "civilization", "technology", "life cycles", "thing", "human", "animal", "plants"],
         "Fate": ["Free will", "choices", "individual control", "randomness", "chaos", "war", "human", "animal", "plants", "life", "living", "organisms", "living beings", "living creatures", "living things", "beings", "creatures", "things"],
         "Earthquake": ["Buildings", "roads", "structures", "landscapes", "civilization", "foundations", "human", "animal", "plants", "life", "road", "bridge"],
-        "Storm": ["Calm weather", "small plants", "fragile structures", "peace", "warm conditions", "fire", "animals", "plants"],
-        "Vaccine": ["Disease", "viruses", "infections", "pathogens", "bacterial outbreaks"],
+        "Storm": ["Calm weather", "small plants", "fragile structures", "peace", "warm conditions", "fire", "animals", "plants", "crops"],
+        "Vaccine": ["Disease", "viruses", "infections", "pathogens", "bacterial outbreaks", "bacteria", "illness"],
         "Logic": ["Emotion", "irrationality", "confusion", "errors in judgment", "subjective beliefs", "war", "conflict", "violence", "stress", "suffering", "unrest"],
-        "Gravity": ["Objects in free-fall", "floating objects", "anti-gravity", "resistance", "levitation"],
-        "Robots": ["Human labor", "manual tasks", "repetitive work", "hazardous tasks", "unskilled work"],
-        "Stone": ["Fragile materials", "soft objects", "weaker structures", "easily destructible items"],
-        "Echo": ["Silence", "stillness", "quiet environments", "soundless places"],
-        "Thunder": ["Silence", "calm", "peaceful environments", "quiet places"],
-        "Karma": ["Unjust actions", "bad behavior", "unethical decisions", "selfishness", "immorality"],
-        "Wind": ["Still air", "calm weather", "fire", "smoke", "stagnant environments"],
-        "Ice": ["Fire", "heat", "high temperatures", "warm environments", "liquid water"],
-        "Sandstorm": ["Calm weather", "clear skies", "small", "fragile objects", "stillness"],
-        "Laser": ["Obstacles", "barriers", "physical defenses", "darkness", "resistance"],
-        "Magma": ["Structures", "buildings", "ice", "soil", "vegetation", "cold weather"],
+        "Gravity": ["Objects in free-fall", "floating objects", "anti-gravity", "resistance", "levitation", "air"],
+        "Robots": ["Human labor", "manual tasks", "repetitive work", "hazardous tasks", "unskilled work", "human", "air", "crops", "food"],
+        "Stone": ["Fragile materials", "soft objects", "weaker structures", "easily destructible items", "glass", "animal"],
+        "Echo": ["Silence", "stillness", "quiet environments", "soundless places", "calm", "peace", "tranquility"],
+        "Thunder": ["Silence", "calm", "peaceful environments", "quiet places", "human", "animal", "plants"],
+        "Karma": ["Unjust actions", "bad behavior", "unethical decisions", "selfishness", "immorality", "war"],
+        "Wind": ["Still air", "calm weather", "fire", "smoke", "stagnant environments", "flame", "cloud"],
+        "Ice": ["Fire", "teeth", "heat", "high temperatures", "warm environments", "water", "car", "road", "bridge", "foot", "hand"],
+        "Sandstorm": ["Calm weather", "clear skies", "small", "fragile objects", "stillness", "peace", "calm", "quiet", "tranquility", "candle"],
+        "Laser": ["Obstacles", "barriers", "physical defenses", "darkness", "resistance", "paper", "glass", "dark"],
+        "Magma": ["Structures", "buildings", "ice", "soil", "vegetation", "cold weather", "water", "snow", "ice", "cold", "frozen materials", "fragile items", "crops"],
         "Peace": ["War", "conflict", "violence", "stress", "suffering", "unrest"],
-        "Explosion": ["Fragile structures", "fragile materials", "stability", "unprotected buildings", "people"],
-        "War": ["Peace", "diplomacy", "calm", "stability", "safety", "serenity"],
-        "Enlightenment": ["Ignorance", "confusion", "limited knowledge", "darkness", "misinformation"],
-        "Nuclear Bomb": ["Buildings", "infrastructure", "large areas", "human life", "nature"],
-        "Volcano": ["Structures", "landscapes", "vegetation", "human settlements", "ecosystems"],
-        "Whale": ["Smaller sea creatures", "fish", "sea life", "ocean predators"],
+        "Explosion": ["Fragile structures", "fragile materials", "stability", "unprotected buildings", "people", "building", "organism", "animal", "nature", "food"],
+        "War": ["Peace", "diplomacy", "calm", "stability", "safety", "serenity", "human", "food"],
+        "Enlightenment": ["Ignorance", "confusion", "limited knowledge", "darkness", "misinformation", "war", "conflict"],
+        "Nuclear Bomb": ["Buildings", "infrastructure", "large areas", "human life", "nature", "plant", "animal", "organism", "living beings", "living creatures", "living things", "beings", "creatures", "things", "crops", "food"],
+        "Volcano": ["Structures", "landscapes", "vegetation", "human settlements", "ecosystems", "human", "city", "animal", "food", "crops"],
+        "Whale": ["Smaller sea creatures", "fish", "sea life", "ocean predators", "insect", "food"],
         "Earth": ["Artificial objects", "space debris", "cosmic matter", "asteroids"],
         "Moon": ["Light", "planets", "stars", "darkness", "celestial bodies"],
         "Star": ["Darkness", "cold", "void", "empty space", "night", "absence of light"],
@@ -187,11 +187,11 @@ def get_beat_dict():
         "Plague": ["Living organisms", "cities", "civilizations", "human health", "animal populations"],
         "Rebirth": ["Death", "decay", "stagnation", "endings", "loss"],
         "Tectonic Shift": ["Landscapes", "human structures", "geological formations", "topography", "house", "building", "structures"],
-        "Gamma-Ray Burst": ["Stars", "matter", "life", "biological organisms", "planetary systems", "life", "human", "animal", "plant", "organism"],
+        "Gamma-Ray Burst": ["Stars", "matter", "life", "biological organisms", "planetary systems", "life", "human", "animal", "plant", "organism", "water"],
         "Human Spirit": ["Suffering", "negative emotions", "hardships", "despair", "hopelessness", "war", "conflict", "violence", "stress", "suffering", "unrest"],
         "Apocalyptic Meteor": ["Civilization", "life", "structures", "ecosystems", "atmosphere", "human", "animal", "plants", "life", "living", "organisms", "living beings", "living creatures", "objects", "things"],
-        "Earth’s Core": ["Surface", "outer layers", "land", "mineral formations", "structures", "human", "animal", "music instrument", "broom", "spoon", "household", "objects"],
-        "Neutron Star": ["Ordinary matter", "space", "light matter", "stellar systems", "stars", "planets", "human", "animal", "plant", "organism", "building", "structure", "household", "objects", "spoon", "broom", "music instrument"],
+        "Earth's Core": ["Surface", "outer layers", "land", "mineral formations", "structures", "human", "animal", "music instrument", "broom", "household", "objects"],
+        "Neutron Star": ["Ordinary matter", "space", "light matter", "stellar systems", "stars", "planets", "human", "animal", "plant", "organism", "building", "structure", "household", "objects", "broom", "music instrument"],
         "Supermassive Black Hole": ["Stars", "galaxies", "space", "matter", "cosmic structures", "celestial bodies", "human life", "human", "animal", "plants", "life", "living", "organisms", "living beings", "living creatures", "living things", "beings", "creatures", "things", "buildings", "structures"],
         "Entropy": ["Order", "systems", "organized structures", "predictability", "uniformity", "stability", "harmony", "balance"]
     }
@@ -243,11 +243,11 @@ def what_beats(word):
     similarities = compare_word_to_set(word.lower(), words_to_compare, glove_model)
     # get top 5 closes words
     sorted_similarities = sorted(similarities.items(), key=lambda x: x[1], reverse=True)
-    top_5_closest = sorted_similarities[:5]
+    top_5_closest = sorted_similarities[:2]
     # print them
     print(f"Top 5 closest words to '{word}':")
-    for word, sim in top_5_closest:
-        print(f"{word}: {sim:.4f}")
+    for w, sim in top_5_closest:
+        print(f"{w}: {sim:.4f}")
 
     # get list of words that beat the given word
     beat_words = []
@@ -264,6 +264,9 @@ def what_beats(word):
     if beat_words:
         # get the first word from the list
         chosen_word = beat_words[0]
+        #sort first 3 beat_words by cost
+    
+        
         # get the id and cost of the word from my_words
         chosen_word_row = my_words.loc[my_words['word'].str.lower() == chosen_word.lower()]
         if not chosen_word_row.empty:
@@ -271,8 +274,22 @@ def what_beats(word):
             chosen_word_cost = chosen_word_row['cost'].values[0]
             if chosen_word_cost > 32:
                 print(f"Cost of '{chosen_word}' is too high ({chosen_word_cost}). Sleeping instead.")
-                sleep(1)
                 return 1
+            beat_words_cost = []
+            for word in beat_words:
+                word_row = my_words.loc[my_words['word'].str.lower() == word.lower()]
+                if not word_row.empty:
+                    word_cost = word_row['cost'].values[0]
+                    beat_words_cost.append((word, word_cost))
+            beat_words_cost.sort(key=lambda x: x[1])
+
+            #do a choice with cum weights between the first 3; let the weight be the actual 1/cost
+            beat_words_cost = beat_words_cost[:3]
+            weights = [1 / cost for _, cost in beat_words_cost]
+            chosen_word = random.choices([word for word, _ in beat_words_cost], weights=weights, k=1)[0]
+            chosen_word_row = my_words.loc[my_words['word'].str.lower() == chosen_word.lower()]
+            chosen_word_id = chosen_word_row['id'].values[0]
+            chosen_word_cost = chosen_word_row['cost'].values[0]
             print(f"Chosen word: '{chosen_word}' with ID: {chosen_word_id} and cost: {chosen_word_cost}")
             return int(chosen_word_id)
 
@@ -322,7 +339,15 @@ print(f"Finished reading my words\nHere are the first 5:\n{my_words.head(5)}\n")
 beat_dict = get_beat_dict()
 
 
-player_id = 'a simple quick brown fox'
+player_id = 'qG2uqHjtTq'
 print(f"Starting game for player ID: {player_id}")
-play_game(player_id)
+while True:
+    try:
+        play_game(player_id)
+        #wait input till next round
+        input("Press Enter to continue to the next round...")
+    except requests.exceptions.RequestException as e:
+        print(f"Error during game: {e}. Retrying...")
+        sleep(1)  # Wait before retrying
+
 print("Game finished.")
